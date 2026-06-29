@@ -1,17 +1,22 @@
-# 🚀 GatiX AI Pro
+# 🚀 GatiX AI
 
-An AI-powered route optimization system built using Python and real-world road network data. GatiX AI Pro finds the shortest driving route between two locations in Vadodara and visualizes it on an interactive map.
+An AI-powered Route Optimization System built using **Python**, **Streamlit**, **OSMnx**, **NetworkX**, and **Folium**.
+
+## 📌 Overview
+
+GatiX AI helps users find the shortest route between two locations using real-world road network data. The application provides an interactive map interface and graph-based pathfinding algorithms for efficient navigation.
 
 ---
 
-## 📌 Features
+## ✨ Features
 
+- 📍 Real-world map integration
 - 🗺️ Interactive route visualization
-- 📍 Real-world road network using OpenStreetMap
-- 📏 Accurate route distance calculation
-- ⏱️ Estimated travel time (ETA)
-- 🚗 Custom Dijkstra Algorithm
-- 🎨 User-friendly Streamlit interface
+- ⚡ Dijkstra Shortest Path Algorithm
+- 📏 Distance calculation
+- 🎨 Modern Streamlit UI
+- 📦 Modular project structure
+- 🌍 OpenStreetMap integration
 
 ---
 
@@ -22,19 +27,20 @@ An AI-powered route optimization system built using Python and real-world road n
 - OSMnx
 - NetworkX
 - Folium
-- OpenStreetMap (OSM)
+- Streamlit-Folium
 
 ---
 
 ## 📂 Project Structure
 
 ```
-GatiX_AI/
+GatiX-AI/
 │
 ├── algorithms/
+├── assets/
 ├── utils/
 ├── visualization/
-├── data/
+├── screenshots/
 ├── app.py
 ├── requirements.txt
 └── README.md
@@ -42,11 +48,12 @@ GatiX_AI/
 
 ---
 
-## ▶️ Installation
+## 🚀 Installation
 
 ```bash
-git clone <repository-link>
-cd GatiX_AI
+git clone https://github.com/rudra-patel02/GatiX-AI.git
+
+cd GatiX-AI
 
 pip install -r requirements.txt
 
@@ -55,19 +62,30 @@ streamlit run app.py
 
 ---
 
-## 🚀 Future Improvements
+## 📸 Screenshots
 
-- A* Search Algorithm
-- Genetic Algorithm
-- Live Traffic Integration
-- Multiple Route Suggestions
-- Voice Navigation
-- Traffic Prediction using AI
+(Add screenshots here after uploading them.)
 
 ---
 
-## 👨‍💻 Developed By
+## 🔮 Future Enhancements
 
-**Rudra**
+- A* Pathfinding Algorithm
+- Live Traffic Prediction
+- Multiple Route Suggestions
+- ETA Prediction
+- Voice Navigation
+- Mobile Application
+
+---
+
+## 👨‍💻 Developer
+
+**Rudra Patel**
 
 Final Year B.Tech (Computer Science & Engineering)
+
+---
+
+## ⭐ If you like this project, don't forget to star the repository!
+
